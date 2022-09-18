@@ -1,0 +1,237 @@
+.main {
+    padding: 96px 64PX;
+    max-height: 792px;
+    background-image: url('../../images/main-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FCDA28;
+    position: relative;
+}
+
+.main__text-container {
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+}
+
+.main__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 144px;
+    line-height: 152px;
+    color: #fff;
+}
+
+.main__description {
+    margin: 24px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.main__subtitle {
+    margin: 120px 0 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.main__text {
+    margin: 16px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.main__img-ginger {
+    width: 496px;
+    height: 408px;
+    background-image: url('../../images/ginger.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 64px;
+    bottom: 135px;
+}
+
+.main__img-nootris {
+    width: 224px;
+    height: 635px;
+    background-image: url('../../images/nootris.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 160px;
+    bottom: 112px;
+}
+
+.main__img-lemon {
+    width: 533px;
+    height: 463px;
+    background-image: url('../../images/Lemon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 160px;
+    bottom: -112px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main__title {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .main__img-ginger {
+        width: 410px;
+        height: 340px;
+    }
+
+    .main__img-nootris {
+        width: 185px;
+        height: 560px;
+    }
+
+    .main__img-lemon {
+        width: 425px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main {
+        padding: 64px 44px;
+    }
+
+    .main__text-container {
+        max-width: 70%;
+    }
+
+    .main__img-ginger {
+        width: 320px;
+        height: 265px;
+        right: 16px;
+        bottom: 120px;
+    }
+
+    .main__img-nootris {
+        width: 144px;
+        height: 409px;
+        right: 120px;
+        bottom: 100px;
+    }
+
+    .main__img-lemon {
+        width: 342px;
+        height: 297px;
+        right: 107px;
+        bottom: -108px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding: 30px;
+    }
+
+    .main__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .main__description {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .main__subtitle {
+        margin: 50px 0 0 0;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .main__text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .main__img-ginger {
+        width: 149px;
+        height: 124px;
+        right: 16px;
+        bottom: 63px;
+    }
+
+    .main__img-nootris {
+        width: 67px;
+        height: 193px;
+        right: 62px;
+        bottom: 49px;
+    }
+
+    .main__img-lemon {
+        width: 166px;
+        height: 149px;
+        right: 72px;
+        bottom: -39px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .main {
+        padding: 40px 20px 110px;
+    }
+
+    .main__text-container {
+        max-width: 90%;
+    }
+
+    .main__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .main__description {
+        font-size: 18px;
+        line-height: 18px;
+        margin: 30px 0 0 0;
+    }
+
+    .main__subtitle {
+        margin: 60px 0 0 0;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .main__text {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 70%;
+    }
+
+    .main__img-ginger {
+        width: 149px;
+        height: 124px;
+        right: 5px;
+        bottom: 63px;
+    }
+
+    .main__img-nootris {
+        width: 67px;
+        height: 193px;
+        right: 22px;
+        bottom: 49px;
+    }
+
+    .main__img-lemon {
+        width: 166px;
+        height: 149px;
+        right: 38px;
+        bottom: -39px;
+    }
+
+}

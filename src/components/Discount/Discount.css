@@ -1,0 +1,225 @@
+.discount {
+    margin: 110px 176px;
+    padding: 0;
+    display: grid;
+}
+
+.discount__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: white;
+    text-align: center;
+}
+
+.discount__title_orange {
+    color: #FCB500;
+}
+
+.discount__price {
+    margin: 85px 0 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+    justify-content: center;
+}
+
+.discount__price-old {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ADADAD;
+    text-decoration: line-through;
+}
+
+.discount__prise-new {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    color: white;
+}
+
+.discount__benefits-list {
+    margin: 50px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: minmax(min-content, 160px) minmax(min-content, 480px) minmax(min-content, 160px);
+    justify-content: space-between;
+}
+
+.discount__benefit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__img-ginger {
+    margin: 0 0 78px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.discount__img-nootris {
+    margin: 0 0 45px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.discount__img-virus {
+    margin: 0 0 78px 0;
+    width: 100%;
+}
+
+.discount__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+
+.discount__subtitle_orange {
+    color: #FCB500;
+}
+
+.discount__subtitle_big {
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.discount__text {
+    color: #FCB500;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.discount__btn {
+    margin: 64px 0 0 0;
+    padding: 16px 32px;
+    border: none;
+    background: #FCB500;
+    border-radius: 7px;
+    width: 256px;
+    height: 56px;
+    justify-self: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.discount__btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+
+@media screen and (max-width: 960px) {
+    .discount {
+        margin: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .discount {
+        margin: 50px;
+    }
+
+    .discount__title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .discount__price {
+        margin: 30px 0 0 0;
+        gap: 16px;
+    }
+
+    .discount__price-old {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .discount__prise-new {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .discount__benefits-list {
+        margin: 30px 0 0 0;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .discount__img-ginger {
+        margin: 0 0 20px 0;
+        width: 50%;
+    }
+
+    .discount__img-nootris {
+        margin: 0 0 20px 0;
+        width: 90%;
+    }
+
+    .discount__img-virus {
+        margin: 0 0 20px 0;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .discount {
+        margin: 30px 20px;
+    }
+
+    .discount__title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .discount__benefits-list {
+        margin: 30px 0 0 0;
+        gap: 30px;
+    }
+
+    .discount__img-ginger {
+        margin: 0 0 10px 0;
+        width: 70%;
+    }
+
+    .discount__img-nootris {
+        margin: 0 0 10px 0;
+        width: 100%;
+    }
+
+    .discount__img-virus {
+        margin: 0 0 10px 0;
+        width: 70%;
+    }
+
+    .discount__subtitle {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .discount__subtitle_big {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .discount__text {
+        font-size: 16px;
+        line-height: 16px;
+    }
+}
