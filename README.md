@@ -7,6 +7,8 @@
 
 Макет: https://www.figma.com/file/o8KBWl9zTNrwOHNuUknXbz/Test?node-id=3%3A2
 
+Реализация: https://daryavita.github.io/test-willskill/
+
 ## Запуск проекта
 Запуск приложения в режиме разработки:
 
